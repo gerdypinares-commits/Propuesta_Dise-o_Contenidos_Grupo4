@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentoraPro - Propuesta Estratégica 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; scroll-behavior: smooth; }
+        .brand-blue { color: #1e3a8a; }
+        .bg-brand-blue { background-color: #1e3a8a; }
+        .mockup-card { transition: all 0.3s ease; border: 1px solid #e2e8f0; }
+        .mockup-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+        
+        /* Custom Scrollbar for Carousel */
+        .carousel-container::-webkit-scrollbar { height: 4px; }
+        .carousel-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        .carousel-container { scroll-snap-type: x mandatory; }
+        .slide { scroll-snap-align: start; min-width: 100%; }
+
+        .phone-frame {
+            width: 300px;
+            height: 600px;
+            border: 10px solid #111827;
+            border-radius: 36px;
+            overflow: hidden;
+            position: relative;
+            background: #000;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+        }
+
+        .nav-link {
+            transition: all 0.2s;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-link:hover { border-bottom: 2px solid #2563eb; color: #2563eb; }
+    </style>
+</head>
+<body class="text-slate-900">
+
+    <!-- Header Principal -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <!-- Logo e Identidad -->
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center shadow-lg">
+                    <i class="fas fa-rocket text-white"></i>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-black tracking-tighter leading-none italic">Mentora<span class="text-blue-600">Pro</span></h1>
+                    <span class="text-[10px] uppercase tracking-[0.3em] text-slate-400 font-extrabold">Campaña 2026</span>
+                </div>
+            </div>
+
+            <!-- Navegación a Publicaciones -->
+            <nav class="flex items-center space-x-4 text-[11px] font-bold uppercase tracking-wider text-slate-500">
+                <a href="#linkedin" class="nav-link px-2 py-1">LinkedIn</a>
+                <a href="#instagram" class="nav-link px-2 py-1">Instagram</a>
+                <a href="#facebook" class="nav-link px-2 py-1">Facebook</a>
+                <a href="#stories" class="nav-link px-2 py-1">Stories</a>
+            </nav>
+
+            <div class="hidden lg:block text-right">
+                <p class="text-xs font-bold text-slate-800 italic uppercase tracking-tighter">Propuesta Estratégica</p>
+                <p class="text-[10px] text-blue-600 font-medium italic">Prototipo visual
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        
+             <!-- Título de Sección con Descripción Extendida -->
+        <div class="mb-16 text-center md:text-left">
+            <h2 class="text-5xl font-black text-slate-900 mb-4 tracking-tight">4. Diseño de Contenidos</h2>
+            <div class="h-1.5 w-32 bg-brand-blue mx-auto md:mx-0 mb-6"></div>
+            <div class="max-w-4xl">
+                <p class="text-slate-600 leading-relaxed mb-4">
+Estrategia visual diseñada para impactar en cada fase del embudo de conversión, desde la identificación emocional del problema hasta la generación de leads calificados.              <div class="flex flex-wrap gap-4 text-[10px] font-bold uppercase tracking-widest text-slate-400">
+                    <span class="flex items-center"><i class="fas fa-heart mr-2 text-red-400"></i> Empatía</span>
+                    <span class="flex items-center"><i class="fas fa-book-open mr-2 text-blue-400"></i> Autoridad</span>
+                    <span class="flex items-center"><i class="fas fa-chart-line mr-2 text-green-400"></i> Resultados</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-16">
+            
+            <!-- 4.1.1 LinkedIn Storytelling -->
+            <section id="linkedin" class="space-y-6">
+                <div class="flex items-center space-x-4 border-l-4 border-blue-700 pl-4">
+                    <i class="fab fa-linkedin text-blue-700 text-4xl"></i>
+                    <div>
+                        <h3 class="text-2xl font-extrabold uppercase tracking-tight">4.1.1 Publicación 1 – Storytelling</h3>
+                        <p class="text-sm text-slate-500 font-bold italic">Etapa: Identificación Emocional (Atracción)</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm mockup-card">
+                    <div class="flex items-center p-4 border-bottom border-slate-100">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-800 mr-3">MP</div>
+                        <div class="flex-1">
+                            <p class="text-sm font-bold">MentoraPro <span class="text-slate-400 font-normal ml-1">• 1º</span></p>
+                            <p class="text-[11px] text-slate-500">Expertos en Mentoría Estratégica para Emprendedores</p>
+                        </div>
+                    </div>
+                    <div class="px-4 pb-4 text-[14px] leading-relaxed space-y-3 text-slate-700">
+                    <p>Platicando con <span class="text-blue-700 font-bold hover:underline cursor-pointer">@Mark Quispe</span>, nos dimos cuenta de un patrón común en muchos emprendedores.</p>
+
+                        <p>Mark tenía una idea de negocio, pero no sabía por dónde empezar.</p>
+                        <p>No le faltaba talento, le faltaba estrategia. Hoy, después de una mentoría, tiene un plan claro, números reales y un camino definido.</p>
+                        <p class="font-bold text-slate-900 text-base">Tu idea no necesita suerte, necesita guía.</p>
+                        <p class="text-blue-700 font-semibold">#Emprendimiento #Mentoría #Negocios #Profesionales #StartupPerú</p>
+                    </div>
+                    <!-- Mockup Imagen -->
+                    <div class="relative aspect-video">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center p-6 text-center">
+                            <h4 class="text-white text-2xl md:text-3xl font-black italic tracking-tighter leading-tight drop-shadow-lg">
+                                “¿Y si tu idea sí funciona,<br> <span class="text-blue-400">pero nadie te ha guiado?</span>”
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 flex justify-between items-center border-t border-slate-100">
+                        <span class="text-xs font-extrabold uppercase text-slate-600">Agenda tu sesión de mentoría aquí</span>
+                        <button class="bg-blue-700 text-white px-6 py-2 rounded-lg font-bold text-xs uppercase tracking-widest">Contactar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4.1.2 Instagram Carrusel -->
+            <section id="instagram" class="space-y-6">
+                <div class="flex items-center space-x-4 border-l-4 border-pink-600 pl-4">
+                    <i class="fab fa-instagram text-pink-600 text-4xl"></i>
+                    <div>
+                        <h3 class="text-2xl font-extrabold uppercase tracking-tight">4.1.2 Publicación 2 – Educativo</h3>
+                        <p class="text-sm text-slate-500 font-bold italic">Etapa: Educación y Posicionamiento</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm mockup-card">
+                    <div class="flex items-center p-3 border-b border-slate-100">
+                        <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-yellow-400 to-purple-600 p-[2px] mr-2">
+                            <div class="w-full h-full rounded-full bg-brand-blue flex items-center justify-center text-[10px] text-white font-bold italic">MP</div>
+                        </div>
+                        <span class="text-xs font-bold">mentora.pro</span>
+                    </div>
+                    
+                    <!-- Carrusel Completo -->
+                    <div class="carousel-container flex overflow-x-auto snap-x snap-mandatory">
+                        <!-- Slide 1 -->
+                        <div class="slide bg-brand-blue text-white p-10 flex flex-col items-center justify-center text-center relative aspect-square">
+                            <div class="absolute top-4 right-6 text-[10px] opacity-50">1/5</div>
+                            <i class="fas fa-hand-pointer animate-bounce mb-4 text-3xl"></i>
+                            <h4 class="text-3xl font-black italic uppercase leading-none mb-4">3 errores al emprender sin mentoría</h4>
+                            <p class="text-xs font-bold bg-black text-brand-blue px-3 py-1 rounded-full uppercase">Desliza para aprender</p>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="slide bg-white p-10 flex flex-col items-center justify-center text-center aspect-square relative border-x border-slate-50">
+                            <div class="absolute top-4 right-6 text-[10px] text-slate-300">2/5</div>
+                            <span class="text-8xl font-black text-slate-50 absolute inset-0 flex items-center justify-center -z-0">01</span>
+                            <h4 class="text-xl font-bold text-slate-800 z-10 uppercase tracking-tighter">Empezar sin validar tu idea.</h4>
+                            <div class="w-12 h-1 bg-blue-600 mt-4 z-10"></div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="slide bg-white p-10 flex flex-col items-center justify-center text-center aspect-square relative">
+                            <div class="absolute top-4 right-6 text-[10px] text-slate-300">3/5</div>
+                            <span class="text-8xl font-black text-slate-50 absolute inset-0 flex items-center justify-center">02</span>
+                            <h4 class="text-xl font-bold text-slate-800 z-10 uppercase tracking-tighter">Invertir sin estrategia.</h4>
+                            <div class="w-12 h-1 bg-blue-600 mt-4 z-10"></div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="slide bg-white p-10 flex flex-col items-center justify-center text-center aspect-square relative">
+                            <div class="absolute top-4 right-6 text-[10px] text-slate-300">4/5</div>
+                            <span class="text-8xl font-black text-slate-50 absolute inset-0 flex items-center justify-center">03</span>
+                            <h4 class="text-xl font-bold text-slate-800 z-10 uppercase tracking-tighter">Tomar decisiones sin datos.</h4>
+                            <div class="w-12 h-1 bg-blue-600 mt-4 z-10"></div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="slide bg-green-600 text-white p-10 flex flex-col items-center justify-center text-center aspect-square relative">
+                            <div class="absolute top-4 right-6 text-[10px] opacity-50">5/5</div>
+                            <i class="fas fa-lightbulb text-4xl mb-6 text-yellow-300"></i>
+                            <h4 class="text-sm font-bold uppercase tracking-widest mb-2">Solución:</h4>
+                            <h4 class="text-2xl font-black italic uppercase leading-tight">Mentoría estratégica con expertos reales.</h4>
+                        </div>
+                    </div>
+
+                    <div class="p-4 space-y-2">
+                        <div class="flex space-x-4 text-xl mb-2">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <p class="text-sm text-slate-700"><strong>mentora.pro</strong> Tomar decisiones sin datos es apostar, no emprender. No cometas estos errores.</p>
+                        <p class="text-blue-600 text-xs font-semibold">#Emprender #IdeasDeNegocio #CrecimientoProfesional #MentoríaOnline</p>
+                        <button class="w-full mt-4 py-3 bg-pink-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded hover:bg-pink-700 transition-colors">Descubre si tu idea es viable aquí</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4.1.3 Facebook / Instagram Conversión -->
+            <section id="facebook" class="space-y-6">
+                <div class="flex items-center space-x-4 border-l-4 border-blue-600 pl-4">
+                    <i class="fab fa-facebook text-blue-600 text-4xl"></i>
+                    <div>
+                        <h3 class="text-2xl font-extrabold uppercase tracking-tight">4.1.3 Publicación 3 – Conversión</h3>
+                        <p class="text-sm text-slate-500 font-bold italic">Etapa: Cierre / Captación de Leads</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm mockup-card">
+                    <div class="p-4 flex items-center justify-between border-b border-slate-50">
+                    
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white mr-3 shadow-md">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold">MentoraPro</p>
+                                <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Publicidad • Patrocinado</p>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-h text-slate-300"></i>
+                    </div>
+                    <div class="p-4 text-sm text-slate-800 italic">
+                        ¿Tienes una idea de negocio, pero no sabes si es rentable? Habla con un mentor experto y recibe una guía clara en minutos.
+                    </div>
+                    <div class="bg-slate-900 aspect-square relative flex flex-col items-center justify-center text-center p-8 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" class="absolute inset-0 w-full h-full object-cover opacity-20">
+                        <div class="relative z-10 space-y-6">
+                            <h4 class="text-3xl font-black text-white italic tracking-tighter leading-none">¿ES RENTABLE TU PROYECTO?</h4>
+                            <div class="h-1 w-16 bg-blue-500 mx-auto"></div>
+                            <p class="text-blue-100 text-xs font-light max-w-xs mx-auto italic">Mentoría express para profesionales que quieren emprender sin improvisar.</p>
+                            <button class="bg-blue-600 text-white px-8 py-4 rounded-full font-black text-sm tracking-widest shadow-xl hover:scale-105 transition-transform border-b-4 border-blue-800">
+                                AGENDA TU MENTORÍA
+                            </button>
+                                 <p class="text-[10px] text-yellow-400 font-bold tracking-widest uppercase">¡Últimos espacios disponibles!</p>
+                        </div>
+                        
+                    </div>
+                    <div class="p-4 bg-slate-50 border-t border-slate-100 flex justify-between items-center">
+                        <div class="space-y-1">
+                            <p class="text-[9px] uppercase font-black text-blue-600 tracking-widest">mentora-pro.com</p>
+                            <p class="text-sm font-bold text-slate-800">Recibe una guía clara hoy mismo</p>
+                            <p class="text-[10px] text-slate-500 font-medium">#Negocios #Mentoría #Emprendedores #PlanDeNegocio</p>
+                        </div>
+                        <button class="bg-slate-200 text-slate-700 px-4 py-2 rounded font-black text-[10px] uppercase hover:bg-slate-300">Regístrate</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4.2 Historia -->
+            <section id="stories" class="space-y-6 flex flex-col items-center xl:items-start">
+                <div class="flex items-center space-x-4 border-l-4 border-purple-500 pl-4 self-start">
+                    <div class="flex -space-x-2">
+                        <i class="fab fa-instagram text-3xl text-pink-500"></i>
+                        <i class="fab fa-linkedin text-3xl text-blue-700"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-extrabold uppercase tracking-tight">4.2 Historia (Story)</h3>
+                        <p class="text-sm text-slate-500 font-bold italic">Formato Vertical: Inmediatez</p>
+                    </div>
+                </div>
+
+                <div class="phone-frame">
+                    <div class="h-full w-full bg-slate-900 relative p-8 flex flex-col justify-between">
+                        <!-- Progress Bars -->
+                        <div class="flex space-x-1 absolute top-3 left-4 right-4 z-50">
+                            <div class="h-0.5 bg-white flex-1 rounded-full opacity-30"></div>
+                            <div class="h-0.5 bg-white flex-1 rounded-full"></div>
+                            <div class="h-0.5 bg-white flex-1 rounded-full opacity-30"></div>
+                        </div>
+
+                        <!-- Content Story -->
+                        <div class="absolute inset-0 opacity-40">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/90"></div>
+
+                        <div class="relative z-10 mt-12">
+                            <span class="bg-blue-600 text-[9px] font-black px-2 py-0.5 rounded text-white uppercase tracking-widest">Story MentoraPro</span>
+                            <h5 class="text-white text-4xl font-black italic tracking-tighter leading-none mt-4 uppercase">
+                                ¿Pero no sabes si es rentable?
+                            </h5>
+                            <p class="text-white/80 text-lg font-light mt-4 italic">Habla con un mentor experto <span class="font-bold border-b-2 border-blue-500">hoy mismo.</span></p>
+                        </div>
+
+                        <div class="relative z-10 w-full text-center">
+                            <div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl mb-6">
+                                <p class="text-white text-xs font-bold uppercase mb-1">No emprendas a ciegas</p>
+                                <p class="text-white/60 text-[10px] italic leading-none">Recibe guía estratégica en una sesión personalizada</p>
+                            </div>
+                            <div class="animate-bounce mb-2">
+                                <i class="fas fa-chevron-up text-white text-xl"></i>
+                            </div>
+                            <span class="text-white font-black text-[10px] uppercase tracking-[0.4em]">Desliza y agenda</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Panel de Público Objetivo y Tono -->
+        <section class="mt-24 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
+                <h4 class="text-xl font-black italic uppercase mb-6 flex items-center">
+                    <i class="fas fa-users text-blue-600 mr-3"></i> Público Objetivo
+                </h4>
+                <div class="space-y-4">
+                    <div class="flex items-center p-4 bg-slate-50 rounded-2xl">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-700 font-bold">1</div>
+                        <div>
+                            <p class="font-bold text-slate-800">Profesionales jóvenes</p>
+                            <p class="text-xs text-slate-500 italic">Rango de edad: 28-34 años</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 bg-slate-50 rounded-2xl">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-700 font-bold">2</div>
+                        <div>
+                            <p class="font-bold text-slate-800">Ejecutivos Senior</p>
+                            <p class="text-xs text-slate-500 italic">Rango de edad: 45-65 años</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-brand-blue p-8 rounded-3xl text-white shadow-xl">
+                <h4 class="text-xl font-black italic uppercase mb-6 flex items-center">
+                    <i class="fas fa-comment-dots text-blue-300 mr-3"></i> Tono de Marca
+                </h4>
+                <div class="space-y-6">
+                    <p class="text-lg italic font-light leading-relaxed">
+                        "Inspirador, estratégico y cercano. Basado en <span class="text-blue-300 font-bold">experiencia real</span> sin promesas vacías."
+                    </p>
+                    <div class="grid grid-cols-3 gap-2">
+                        <div class="bg-white/10 px-3 py-4 rounded-xl text-center">
+                            <i class="fas fa-star text-xs mb-2 text-blue-300"></i>
+                            <p class="text-[9px] font-bold uppercase tracking-widest">Inspirador</p>
+                        </div>
+                        <div class="bg-white/10 px-3 py-4 rounded-xl text-center">
+                            <i class="fas fa-chess text-xs mb-2 text-blue-300"></i>
+                            <p class="text-[9px] font-bold uppercase tracking-widest">Estratégico</p>
+                        </div>
+                        <div class="bg-white/10 px-3 py-4 rounded-xl text-center">
+                            <i class="fas fa-handshake text-xs mb-2 text-blue-300"></i>
+                            <p class="text-[9px] font-bold uppercase tracking-widest">Cercano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer Académico Requerido -->
+    <footer class="bg-white py-16 border-t border-slate-200 mt-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+                <div class="max-w-md">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-brand-blue rounded flex items-center justify-center text-white text-xs font-bold">MP</div>
+                        <span class="font-black italic text-lg">MentoraPro</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed font-medium">
+                        Prototipo académico diseñado para el curso de Marketing y gestión comercial en la era digital. Esta propuesta simula una campaña de contenidos para el año 2026 bajo los estándares de mentoría estratégica.
+                    </p>
+                </div>
+                
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 w-full md:w-auto">
+                    <p class="text-[10px] font-black uppercase text-blue-600 mb-4 tracking-[0.2em]">Elaborado por:</p>
+                    <ul class="space-y-2 text-sm font-bold text-slate-700 italic">
+                        <li><i class="far fa-user mr-2 text-slate-300"></i> Gerdy Alexia Pinares Loayza</li>
+                        <li><i class="far fa-user mr-2 text-slate-300"></i> Victor Molina Mendoza</li>
+                        <li><i class="far fa-user mr-2 text-slate-300"></i> Juan Enrique Vargas Coral</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-12 pt-8 border-t border-slate-100 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+                © 2026 MentoraPro • Diseño • Contenido • Conversión
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
